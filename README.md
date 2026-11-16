@@ -56,7 +56,7 @@ datetime-helper/
 1. Склонировать репозиторий:
 
 ```bash
-git clone [ССЫЛКА НА РЕПОЗИТОРИЙ]
+git clone [https://github.com/snickerd/datetime-helper.git]
 ```
 
 2. Перейти в папку проекта:
