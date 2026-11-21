@@ -42,8 +42,6 @@ export function activate(context: vscode.ExtensionContext) {
 
     vscode.window.showInformationMessage('DateTime Helper успешно активирован!');
 
-    // Остальной код оставь без изменений
-
     const dateCommand = vscode.commands.registerCommand(
         'datetime-helper.insertDate',
         () => insertText(getCurrentDate())
@@ -51,7 +49,7 @@ export function activate(context: vscode.ExtensionContext) {
 
     const timeCommand = vscode.commands.registerCommand(
         'datetime-helper.insertTime',
-        () => insertText(getCurrentTime())
+        () => insertText(getCurrentTime() + "a")
     );
 
     const dateTimeCommand = vscode.commands.registerCommand(
